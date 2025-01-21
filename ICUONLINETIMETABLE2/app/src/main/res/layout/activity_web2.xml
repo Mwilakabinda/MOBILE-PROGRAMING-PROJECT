@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- WebView with fixed height of 650dp -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="680dp" />
+
+    <!-- Button filling the remaining space below the WebView -->
+    <Button
+        android:id="@+id/actionButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/webView"
+        android:backgroundTint="#00897B"
+        android:drawableLeft="@drawable/baseline_home_24"
+        android:drawableRight="@drawable/baseline_home_24"
+        android:onClick="logout"
+        android:text="Back to home"
+        android:textColor="@color/white" />
+</RelativeLayout>

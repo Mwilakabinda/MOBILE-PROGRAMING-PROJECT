@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321841726223",
+    "project_id": "communityhealthcare-apk",
+    "storage_bucket": "communityhealthcare-apk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321841726223:android:16c60d876cf910e217747a",
+        "android_client_info": {
+          "package_name": "com.mwila.icuonlinetimetable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7OZiMzxnJR5Ew7BPpvXqRR1W8tjNJLfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
