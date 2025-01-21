@@ -1,0 +1,16 @@
+System architecture
+---------------------
+This project was developed using java, php, javascript, html and css.
+This project uses firebase for authenticating a user and creating user account, it also uses firebase cloud messaging to send notifications to the app user. It uses a MySQL database to store the timetable contents which is on an online server and php is used to connect to it, and utilize a WebView to display the contents to the app from an online server.
+
+User Guide
+----------
+Upon opening the app, the registration page will be displayed, then if you haven't registered yet, you will have to input your credentials and create an account, after that you will log in with the previously registered details.
+Make sure you have internet connectivity when creating an account and logging in, after you have logged in, the home page will display, which will notify the user to verify their email, upon doing so a link will be sent to the email they used to register and then they verify their email. On this page you will find other functionalities such as: log out and change password, you will also find buttons for admin log in and timetable log in.
+For admin log in, you use: 
+username-admin
+password-admin1234
+
+Then for regular user u can just create an account and log in.
+The admin has privileges such as adding course, faculty, subject, room and start time and end time, send notices and also add and view other schedules timetable.
+While a user can only create schedules and view notices. Below these pages is a back to home button that will take the user to the main home page.
